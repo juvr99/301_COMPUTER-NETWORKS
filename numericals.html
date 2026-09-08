@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Numericals &amp; Problem Solving</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/print.css"></head>
+<body><header class="topbar"><nav class="nav"><a class="brand" href="index.html">MCA 301 • Computer Networks</a><a href="question-bank.html">Question Bank</a><a href="revision.html">Revision</a><button id="themeToggle">◐</button></nav></header>
+<div class="container"><div class="content"><div class="eyebrow">MCA 301</div><h1>Numericals &amp; Problem Solving</h1><p class="lead">Step-by-step frameworks for the calculation-heavy Computer Networks questions.</p>
+<h2>High-Value Numerical Topics</h2>
+<div class="grid">
+<div class="card"><h3>UDP Checksum</h3><p>Use 16-bit one’s-complement addition, end-around carry, then complement the final sum. Include the UDP pseudo-header where required.</p></div>
+<div class="card"><h3>Parity & Error Detection</h3><p>For even parity, choose the parity bit so the total number of 1s is even. For odd parity, make the total number of 1s odd.</p></div>
+<div class="card"><h3>CRC</h3><p>Append zeros equal to generator degree, perform modulo-2 division, and append the remainder.</p></div>
+<div class="card"><h3>TCP Sequence & ACK</h3><p>ACK normally identifies the next byte expected. SYN and FIN consume one sequence number even though they carry no data.</p></div>
+</div>
+<h2>Exam-Safe Solving Framework</h2>
+<ol><li>Write the given values clearly.</li><li>State the formula/rule before calculating.</li><li>Show intermediate steps, especially carries or remainders.</li><li>Write units and the final answer.</li><li>For protocol questions, draw the relevant header/flow diagram when appropriate.</li></ol>
+<div class="callout important"><strong>Checksum reminder</strong> One’s-complement addition is not ordinary binary addition: any carry beyond 16 bits is wrapped around and added back to the low 16 bits.</div>
+</div></div>
+<footer class="footer">MCA 301 – Computer Networks · Revised Curriculum 2025–2026</footer><script src="js/app.js"></script></body></html>
